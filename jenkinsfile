@@ -1,0 +1,9 @@
+pipeline {
+agent any
+stages {
+stage ('checkout') {
+    git 'https://github.com/sravs2930/maven-web-app.git'
+   }
+  }
+}
+
